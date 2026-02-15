@@ -27,14 +27,16 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.2.0"
   },
+  
   "scripts": {
-    "getpackages": "npm i --legacy-peer-deps",
-    "deploy": "npm run build",
-    "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "getpackages": "npm i --legacy-peer-deps",
+  "deploy": "npm run build",
+  "start": "react-scripts start",
+  "build": "CI=false react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
+
   
   "eslintConfig": {
     "extends": [
